@@ -1,6 +1,7 @@
 body{
     background-color: #FFF5EC;
     margin: 0;
+    overflow-x: hidden;
 }
     .nav{
         display: flex;
