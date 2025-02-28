@@ -155,19 +155,23 @@ margin-left: 10px;
     margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
+    height: 550px;
+    width: 100%;
     display: flex;  
 }
 .P2{
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    height: 550px;
+    width: 100%;
     display: flex;  
 }
 .P1A{
    position: relative;
    display: flex;
    width: 860px !important;
-   height: 550px !important;
+   height: 100% !important;
    transform-style: preserve-3d;
             transform: rotateY(0deg);
             transition: transform 0.6s;
@@ -175,7 +179,7 @@ margin-left: 10px;
 .P1B{
     position: relative;
     width: 550px;
-    height: 550px;
+    height: 100%;
     margin-left: 2%;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
@@ -249,7 +253,7 @@ margin-left: 10px;
     position: relative;
     display: flex;
     width: 860px !important;
-    height: 550px !important;
+    height: 100% !important;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
     transition: transform 0.6s;
@@ -258,7 +262,7 @@ margin-left: 10px;
  .P2B{
      position: relative;
      width: 550px;
-     height: 550px;
+     height: 100%;
      transform-style: preserve-3d;
      transform: rotateY(0deg);
      transition: transform 0.6s;
