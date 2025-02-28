@@ -157,12 +157,14 @@ margin-left: 10px;
     margin-left: 40px;
     margin-right: 3%;
     display: flex;  
+    justify-content: center;
 }
 .P2{
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 3%;
     display: flex;  
+    justify-content: center;
 }
 .P1A{
    position: relative;
