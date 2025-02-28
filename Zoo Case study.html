@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Case Study</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" />
+    <link rel="icon" href="Favicon.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: #FFFCFC;
+            margin: 0%;
+        }
+        img{
+            display: block;
+        }
+        .nav{
+            height: 50px;
+            width: 100%;
+            background-color: #FFF5EC;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            position: fixed;
+            z-index: 10;
+        }
+        #tp{
+            height: 50px;
+        }
+        .naa{
+            font-size: 18px;
+            font-family: 'Urbanist','sans-serif' ;
+            
+        }
+        
+        .naa:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        }
+
+        .na{
+            font-size: 18px;
+            margin-left: 10%;
+            font-family: 'Urbanist','sans-serif' ;
+        }
+
+
+        .na:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a class="naa"id="naa">Methods used</a>
+        <a class="na" id="na1">Observations</a>
+        <a class="na" id="na2">Problems Identified</a>
+        <a class="na" id="na3">Possible solutions</a>
+    </nav>
+    <div class="Doc">
+        <img src="Zoo Case study/Z1.png" alt="" width="100%" height="100%">
+        <img src="Zoo Case study/Z2.png" alt="" width="100%" height="100%">
+        <section class="Z1" id="z1">
+        <img src="Zoo Case study/Z3.png" alt="" width="100%" height="100%">
+    </section>
+    <section class="Z2" id="z2">
+        <img src="Zoo Case study/Z4.png" alt="" width="100%" height="100%">
+    </section>
+    <section class="Z3" id="z3">
+        <img src="Zoo Case study/Z5.png" alt="" width="100%" height="100%">
+    </section>
+    <section class="Z4" id="z4">
+        <img src="Zoo Case study/Z6.png" alt="" width="100%" height="100%">
+    </section>
+    </div>
+    <script>
+        document.getElementById('naa').addEventListener('click', function() {
+    document.getElementById('z1').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na1').addEventListener('click', function() {
+    document.getElementById('z2').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na2').addEventListener('click', function() {
+    document.getElementById('z3').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na3').addEventListener('click', function() {
+    document.getElementById('z4').scrollIntoView({ behavior: 'smooth' });
+});
+    </script>
+</body>
+</html>

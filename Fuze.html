@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuze</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" />
+        <link rel="icon" href="Favicon.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #FFFCFC;
+            margin: 0%;
+        }
+
+        img {
+            display: block;
+        }
+
+        .nav {
+            height: 50px;
+            width: 100%;
+            background-color: #FFF5EC;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            position: fixed;
+            z-index: 10;
+        }
+
+        #tp {
+            height: 50px;
+        }
+
+        .naa {
+            font-size: 18px;
+            font-family: 'Urbanist', 'sans-serif';
+
+        }
+
+        .naa:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .na {
+            font-size: 18px;
+            margin-left: 10%;
+            font-family: 'Urbanist', 'sans-serif';
+        }
+
+
+        .na:hover {
+            cursor: pointer;
+            text-decoration: underline;
+
+        }
+
+        #Rrec {
+            margin-top: -25%;
+            margin-left: 42%;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <a class="naa" id="naa">About Project</a>
+        <a class="na" id="na1">Primary Research</a>
+        <a class="na" id="na2">Fuze app</a>
+    </nav>
+    <div class="Doc">
+        <img src="Fuze/F1.png" alt="" width="100%" height="100%">
+        <section id="f2">
+            <img src="Fuze/F2.png" alt="" width="100%" height="100%">
+        </section>
+        <section id="f3">
+            <img src="Fuze/F3.png" alt="" width="100%" height="100%">
+        </section>
+        <section id="f4">
+            <img src="Fuze/F4.png" alt="" width="100%" height="100%">
+        </section>
+    </div>
+    <script>
+        document.getElementById('naa').addEventListener('click', function() {
+    document.getElementById('f2').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na1').addEventListener('click', function() {
+    document.getElementById('f3').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na2').addEventListener('click', function() {
+    document.getElementById('f4').scrollIntoView({ behavior: 'smooth' });
+});
+    </script>
+</body>
+
+</html>

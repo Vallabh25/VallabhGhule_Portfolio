@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Case Study</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" />
+        <link rel="icon" href="Favicon.png" type="image/x-icon">
+    <style>
+        body{
+            margin: 0%;
+            
+        }
+        .Doc{
+            margin: 0%;
+        }
+        img{
+            display: block;
+        }
+        .nav{
+            height: 50px;
+            width: 100%;
+            background-color: #FFF5EC;
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            position: fixed;
+            z-index: 10;
+        }
+        #tp{
+            height: 50px;
+        }
+        .naa{
+            font-size: 18px;
+            font-family: 'Urbanist','sans-serif' ;
+            
+        }
+        
+        .naa:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        }
+
+        .na{
+            font-size: 18px;
+            margin-left: 10%;
+            font-family: 'Urbanist','sans-serif' ;
+        }
+
+
+        .na:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    
+        }
+        #Rrec{
+            margin-top: -25%;
+            margin-left: 42%;
+          align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a class="naa"id="naa">Research Process</a>
+        <a class="na" id="na1">Research Insights</a>
+        <a class="na" id="na2">Problems Identified</a>
+        <a class="na" id="na3">Redesign</a>
+    </nav>
+    <div class="Doc">
+        <div id="tp"></div>
+        <div class="Rhero">
+        <img src="Reddit Case Study/R1b.png" alt="" width="100%" height="100%" id="bgr">
+        <img src="Reddit Case Study/Recording 2025-02-27 125039.gif" alt="" id="Rrec" width="18%" height="18%">
+    </div>
+        <section class="R1" id="r1">
+        <img src="Reddit Case Study/R2.png" alt="" width="100%" height="100%">
+    </section>
+        <img src="Reddit Case Study/R3.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R4.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R5.png" alt="" width="100%" height="100%">
+        <section id="r6">
+        <img src="Reddit Case Study/R6.png" alt="" width="100%" height="100%">
+    </section>
+        <img src="Reddit Case Study/R7.png" alt="" width="100%" height="100%">
+        <section id="r8">
+        <img src="Reddit Case Study/R8.png" alt="" width="100%" height="100%">
+    </section>
+        <img src="Reddit Case Study/R9.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R10.png" alt="" width="100%" height="100%">
+        <section id="r11">
+        <img src="Reddit Case Study/R11.png" alt="" width="100%" height="100%">
+    </section>
+        <img src="Reddit Case Study/R12.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R13.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R14.png" alt="" width="100%" height="100%">
+        <img src="Reddit Case Study/R15.png" alt="" width="100%" height="100%">
+    </div>
+    <script>
+        document.getElementById('naa').addEventListener('click', function() {
+    document.getElementById('r1').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na1').addEventListener('click', function() {
+    document.getElementById('r6').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na2').addEventListener('click', function() {
+    document.getElementById('r8').scrollIntoView({ behavior: 'smooth' });
+});
+document.getElementById('na3').addEventListener('click', function() {
+    document.getElementById('r11').scrollIntoView({ behavior: 'smooth' });
+});
+    </script>
+</body>
+</html>
