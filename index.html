@@ -343,6 +343,24 @@ document.getElementById('nbc').addEventListener('click', function() {
 document.getElementById('l').addEventListener('click', function() {
     document.getElementById('Heero').scrollIntoView({ behavior: 'smooth' });
 });
+         function checkMobile() {
+        if (window.innerWidth < 768) {
+            document.getElementById("mobile-warning").style.display = "flex";
+            document.body.classList.add("mobile-active");
+        } else {
+            document.getElementById("mobile-warning").style.display = "none";
+            document.body.classList.remove("mobile-active");
+        }
+    }
+
+    function hideWarning() {
+        document.getElementById("mobile-warning").style.display = "none";
+        document.body.classList.remove("mobile-active");
+    }
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
     </script>
 </body>
 
