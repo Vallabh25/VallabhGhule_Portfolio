@@ -148,7 +148,50 @@ margin-left: 10px;
     display: flex;
     align-items: flex-end;
 }
-
+.rp{
+        margin-left: 40px;
+    margin-right: 40px;
+    max-width: 100%;      /* Adjust as needed */
+    margin-top: 10%;
+    font-family: 'Urbanist', 'sans-serif';
+    background-image: url('ri.png');
+    width: auto;
+    height: 283px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
+#rh{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#rsh{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 0.5%;
+    padding-left: 2%;
+}
+#rb{
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#rl{
+     display: inline-block; 
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111618;
+}
+#rli{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 2%;
+}
 .Pt{
 
     font-family:'Urbanist','sans-serif' ;
