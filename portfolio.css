@@ -149,17 +149,17 @@ margin-left: 10px;
     align-items: flex-end;
 }
 .rp{
-        margin-left: 40px;
+   margin-left: 40px;
     margin-right: 40px;
     max-width: 100%;      /* Adjust as needed */
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-family: 'Urbanist', 'sans-serif';
     background-image: url('ri.png');
     width: auto;
-    height: 283px;
-    background-size: cover;
+    min-height: 300px;
+    background-size: contain;
     background-repeat: no-repeat;
-    align-items: center;
     
 }
 #rh{
