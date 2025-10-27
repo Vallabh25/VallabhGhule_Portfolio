@@ -630,6 +630,7 @@ body.mobile-active > *:not(#mobile-warning) {
         font-size: 100%;
         text-align: center;
         margin-top: 30px;
+        color: #111618;
     }
     #proli{
         font-family: 'Urbanist', 'sans-serif';
